@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.test02.RandonTest01&apos; to &apos;RandomTest01&apos;&#x0D;&#x0A;- Original project: &apos;Java08_Scanner&apos;&#x0D;&#x0A;- Original element: &apos;com.test02.RandonTest01&apos;&#x0D;&#x0A;- Renamed element: &apos;com.test02.RandomTest01&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RandonTest01&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.test02{RandonTest01.java[RandonTest01" matchStrategy="1" name="RandomTest01" qualified="false" references="true" similarDeclarations="false" stamp="1606786385964" textual="false" version="1.0"/>
+</session>

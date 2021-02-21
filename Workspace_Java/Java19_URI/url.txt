@@ -1,0 +1,6 @@
+URL (Uniform Resource Locator) : 주소(위치)
+URN (Uniform Resource Name) : 대상(이름)
+URI (Uniform Resource Identifier) : 식별자 // 어디에 누가있는지 확인 
+
+URI= URL +URN 
+

@@ -1,0 +1,21 @@
+Program : 실행파일 "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+Process : 실행되고 있는 상태 프로그램인 메모장을 실행하면 그건 프로세스 
+Thread  : 작업단위 출력하는 쓰레드 입력하려고 준비하는 쓰레드 각각 쓰레드임 각자 무언가 작업을 하고있는것들. 
+
+
+Process (Runtime) : 응용 프로그램 (.exe) 단위로 실행되는 모듈 
+Runnable(Thread): 하나의 process에 여러개의 메소드 단위로 실행되는 모듈. 
+
+
+
+Process 하나에 - T T T , ....여러개의 쓰레드가 돌고있는거 
+process : os에서 제어할 수 있는 가장 작은 단위 
+
+
+
+** 자바에서 메소드 단위로 프로그램을 실행하는 방법 2가지 
+1. Runnable 을 impliments (간단하게 실행할 때) 
+2. Thread 를 extends 하는 방법 (기능 여러개가 필요할 때 ) >> Thread간 양보, 죽이기, 등등..
+>>메인 쓰레드가 돌때 스레드 01 이랑 쓰레드 02 가 같이 돈다 
+
+** run() 메소드는 Thread.start()로 자동 호출한다. 
